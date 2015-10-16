@@ -31,7 +31,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="red"
+            android:text="Red"
             android:id="@+id/button2"
             android:textColor="#ff0000"
             android:background="#ff0000" />
@@ -39,7 +39,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="red"
+            android:text="Blue"
             android:id="@+id/button3"
             android:background="#0000ff"
             android:textColor="#0000FF" />
@@ -47,7 +47,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="red"
+            android:text="Green"
             android:id="@+id/button4"
             android:textColor="#00FF00"
             android:background="#00FF00" />
@@ -63,7 +63,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="red"
+            android:text="Cyan"
             android:id="@+id/button5"
             android:background="#00FFFF"
             android:textColor="#00FFFF" />
@@ -71,7 +71,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="red"
+            android:text="Yellow"
             android:id="@+id/button6"
             android:textColor="#FFFF00"
             android:background="#FFFF00" />
@@ -112,7 +112,8 @@
             android:layout_height="wrap_content"
             android:text="Pink"
             android:id="@+id/button10"
-            android:textColor="#FFC0CB" />
+            android:textColor="#FFC0CB"
+            android:background="#FFC0CB" />
     </LinearLayout>
 
     <LinearLayout
@@ -124,20 +125,26 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button11" />
+            android:text="Majenta"
+            android:id="@+id/button11"
+            android:background="#FF00FF"
+            android:textColor="#FF00FF" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button12" />
+            android:text="Dark Green"
+            android:id="@+id/button12"
+            android:textColor="#008000"
+            android:background="#008000" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button13" />
+            android:text="Orange"
+            android:id="@+id/button13"
+            android:textColor="#FFA500"
+            android:background="#FFA500" />
     </LinearLayout>
 
     <LinearLayout
@@ -149,21 +156,27 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button14" />
+            android:text="Tan"
+            android:id="@+id/button14"
+            android:background="#D2B48C"
+            android:textColor="#D2B48C" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="Brown"
             android:id="@+id/button19"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#A52A2A"
+            android:background="#A52A2A" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button20" />
+            android:text="Gray"
+            android:id="@+id/button20"
+            android:textColor="#808080"
+            android:background="#808080" />
     </LinearLayout>
 
     <LinearLayout
@@ -175,20 +188,26 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button15" />
+            android:text="Gold"
+            android:id="@+id/button15"
+            android:background="#FFD700"
+            android:textColor="#FFD700" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:id="@+id/button18"
+            android:textColor="#C0C0C0"
+            android:background="#C0C0C0" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Button"
-            android:id="@+id/button18" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button22" />
+            android:id="@+id/button22"
+            android:background="#40E0D0"
+            android:textColor="#40E0D0" />
     </LinearLayout>
 
     <LinearLayout

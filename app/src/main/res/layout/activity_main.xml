@@ -24,7 +24,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="127dp"
         android:textColor="#006400"
-        android:background="@color/button_material_light" />
+        android:background="@color/button_material_light"
+        android:onClick="onNextClick" />
 
     <TextView
         android:layout_width="wrap_content"
