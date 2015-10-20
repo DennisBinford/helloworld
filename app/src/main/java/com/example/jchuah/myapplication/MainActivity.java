@@ -28,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(tag, "Launching Color Activity");
         Intent colorActivityIntent = new Intent(this, ColorActivity.class);
-        startActivity(colorActivityIntent,sendBundle);
+        sendBundle.putString("name", "Tom");
+        colorActivityIntent.putExtra("groceries",sendBundle);
+        startActivity(colorActivityIntent);
+
     }
 
     @Override
