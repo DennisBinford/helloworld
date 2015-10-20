@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ColorActivity"
+            android:label="@string/title_activity_color"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
