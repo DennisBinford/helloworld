@@ -19,7 +19,15 @@
         <activity
             android:name=".ColorActivity"
             android:label="@string/title_activity_color"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".NameandColorActivity"
+            android:label="@string/title_activity_nameand_color"
+            android:parentActivityName=".ColorActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ColorActivity" />
         </activity>
     </application>
 
